@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_modes"
+            android:textAppearance="?attr/textAppearanceHeadlineSmall"
+            android:textColor="@color/color_text_primary"
+            android:textStyle="bold"/>
+
+
+        <LinearLayout
+            android:id="@+id/modes_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"/>
+
+        <include
+            android:id="@+id/panel_air"
+            layout="@layout/panel_air"/>
+
+        <include
+            android:id="@+id/panel_media"
+            layout="@layout/panel_media"/>
+
+        <include
+            android:id="@+id/panel_nav"
+            layout="@layout/panel_nav"/>
+    </LinearLayout>
+</ScrollView>

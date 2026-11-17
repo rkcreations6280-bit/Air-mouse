@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Air mouse</string>
+    <string name="splash_tagline">Your phone, your mouse</string>
+
+    <!-- navigation -->
+    <string name="nav_devices">Devices</string>
+    <string name="nav_touchpad">Touchpad</string>
+    <string name="nav_keyboard">Keyboard</string>
+    <string name="nav_modes">Modes</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- common -->
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get started</string>
+    <string name="continue_label">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove">Remove</string>
+    <string name="save">Save</string>
+    <string name="restore">Restore</string>
+    <string name="done">Done</string>
+    <string name="fix">Fix</string>
+    <string name="back">Back</string>
+    <string name="edit">Edit</string>
+
+    <!-- onboarding -->
+    <string name="onb1_title">Your Phone, Your Mouse</string>
+    <string name="onb1_text">Control your computer using your smartphone as a wireless mouse.</string>
+    <string name="onb2_title">Powerful Touchpad</string>
+    <string name="onb2_text">Use touch gestures to move the pointer and perform mouse actions.</string>
+    <string name="onb3_title">Full Keyboard</string>
+    <string name="onb3_text">Type text and access keyboard shortcuts directly from your phone.</string>
+    <string name="onb4_title">Easy Bluetooth Connection</string>
+    <string name="onb4_text">Connect your phone to a compatible computer using Bluetooth.</string>
+
+    <!-- OS selection -->
+    <string name="os_title">Which computer do you use?</string>
+    <string name="os_subtitle">This sets the key labels and shortcuts. You can change it later in Settings.</string>
+    <string name="os_windows">Windows</string>
+    <string name="os_mac">macOS</string>
+
+    <!-- connection states -->
+    <string name="state_disconnected">Disconnected</string>
+    <string name="state_initializing">Initializing</string>
+    <string name="state_discoverable">Discoverable</string>
+    <string name="state_connecting">Connecting</string>
+    <string name="state_connected">Connected</string>
+    <string name="state_reconnecting">Reconnecting</string>
+    <string name="state_failed">Connection failed</string>
+
+    <string name="desc_disconnected">No device connected. Tap Connect and follow the steps.</string>
+    <string name="desc_initializing">Starting the Bluetooth keyboard and mouse service…</string>
+    <string name="desc_discoverable">Open Bluetooth settings on your computer and pair with \"%1$s\".</string>
+    <string name="desc_connecting">Waiting for the computer to accept the connection…</string>
+    <string name="desc_connected">Connected to %1$s</string>
+    <string name="desc_reconnecting">The connection was lost. Trying to reconnect…</string>
+
+    <!-- devices -->
+    <string name="bt_on">Bluetooth on</string>
+    <string name="bt_off">Bluetooth off</string>
+    <string name="bt_unavailable">No Bluetooth</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="try_again">Try again</string>
+    <string name="show_instructions">Show instructions</string>
+    <string name="reconnect_to">Reconnect to %1$s</string>
+    <string name="saved_computers">Saved computers</string>
+    <string name="no_saved">Computers you connect to will appear here.</string>
+    <string name="connected_now">Connected now</string>
+    <string name="last_connected">Last connected %1$s</string>
+    <string name="remove_device_title">Remove saved computer?</string>
+    <string name="remove_device_message">%1$s will be removed from this list. You can pair it again later.</string>
+    <string name="sheet_title">Connect to your computer</string>
+    <string name="sheet_steps">1. On your computer open Bluetooth settings.\n2. Choose \"Add device\" and pick \"%1$s\".\n3. Accept the pairing request on both devices.\n4. Come back here. The status changes to Connected.</string>
+    <string name="bt_settings">Bluetooth settings</string>
+    <string name="banner_bt_off">Bluetooth is turned off. Turn it on to connect.</string>
+
+    <!-- errors -->
+    <string name="err_no_bluetooth">This device has no Bluetooth.</string>
+    <string name="err_permission">Bluetooth permission is needed. Allow it to continue.</string>
+    <string name="err_hid_unavailable">This phone does not support acting as a Bluetooth keyboard or mouse (HID device). Some manufacturers disable it.</string>
+    <string name="err_register">Could not start the keyboard and mouse service. Turn Bluetooth off and on, then try again.</string>
+    <string name="err_connect_failed">Could not connect. Pair the phone from your computer first, then try again.</string>
+    <string name="err_timeout">The computer did not answer in time. Check that Bluetooth is on and try again.</string>
+    <string name="err_unexpected_disconnect">The connection was lost unexpectedly.</string>
+
+    <!-- touchpad -->
+    <string name="hint_touch">Drag to move\nTap to click, tap twice to double click\nTap, then hold and drag to drag things\nTwo fingers: scroll. Two finger tap: right click</string>
+    <string name="pad_not_connected">Not connected to a computer</string>
+    <string name="open_devices">Open Devices</string>
+    <string name="left_click">Left</string>
+    <string name="right_click">Right</string>
+    <string name="scroll_up">Scroll ▲</string>
+    <string name="scroll_down">Scroll ▼</string>
+    <string name="speed_down">Speed −</string>
+    <string name="speed_up">Speed +</string>
+    <string name="speed_value">Speed %1$sx</string>
+
+    <!-- keyboard -->
+    <string name="seg_keys">Keys</string>
+    <string name="seg_nav">Nav</string>
+    <string name="seg_shortcuts">Shortcuts</string>
+    <string name="seg_text">Text</string>
+    <string name="type_here">Type here, it goes to the computer</string>
+    <string name="type_hint">Uses your phone keyboard. Characters are sent as you type.</string>
+
+    <!-- modes -->
+    <string name="mode_mouse">Mouse mode</string>
+    <string name="mode_mouse_desc">Air mouse: move the phone like a remote</string>
+    <string name="mode_keyboard">Keyboard mode</string>
+    <string name="mode_keyboard_desc">Full computer keyboard</string>
+    <string name="mode_touchpad">Touchpad mode</string>
+    <string name="mode_touchpad_desc">Touch gestures for the pointer</string>
+    <string name="mode_media">Multimedia mode</string>
+    <string name="mode_media_desc">Play, pause, tracks and volume</string>
+    <string name="mode_nav">Navigation mode</string>
+    <string name="mode_nav_desc">Arrows, Enter, Esc, Tab, Page Up / Down</string>
+    <string name="modes_not_connected">Not connected</string>
+    <string name="hint_air">Hold a finger on the pad and move the phone like a remote. Tap to click.</string>
+    <string name="no_gyro">This phone has no gyroscope, so air mouse is not available.</string>
+    <string name="media_prev">Previous</string>
+    <string name="media_play">Play / Pause</string>
+    <string name="media_next">Next</string>
+    <string name="media_vol_down">Volume −</string>
+    <string name="media_mute">Mute</string>
+    <string name="media_vol_up">Volume +</string>
+    <string name="key_pgup">PgUp</string>
+    <string name="key_pgdn">PgDn</string>
+    <string name="key_enter">Enter</string>
+    <string name="key_esc">Esc</string>
+    <string name="key_tab">Tab</string>
+
+    <!-- settings -->
+    <string name="settings_general">General</string>
+    <string name="settings_touchpad">Touchpad</string>
+    <string name="settings_keyboard">Keyboard</string>
+    <string name="settings_bluetooth">Bluetooth</string>
+    <string name="settings_other">Other</string>
+    <string name="setting_theme">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="setting_orientation">Orientation</string>
+    <string name="orientation_auto">Automatic</string>
+    <string name="orientation_portrait">Portrait</string>
+    <string name="orientation_landscape">Landscape</string>
+    <string name="setting_language">Language</string>
+    <string name="language_system">System</string>
+    <string name="language_info">The app follows your phone language.</string>
+    <string name="setting_haptic">Haptic feedback</string>
+    <string name="setting_sensitivity">Pointer sensitivity</string>
+    <string name="setting_scroll_speed">Scroll speed</string>
+    <string name="setting_tap_click">Tap to click</string>
+    <string name="setting_tap_click_desc">A quick tap sends a left click</string>
+    <string name="setting_tap_drag">Tap and drag</string>
+    <string name="setting_tap_drag_desc">Tap, then touch again and move to drag</string>
+    <string name="setting_natural">Natural scrolling</string>
+    <string name="setting_natural_desc">Content follows your fingers</string>
+    <string name="setting_layout">Keyboard layout</string>
+    <string name="setting_key_repeat">Key repeat</string>
+    <string name="setting_key_repeat_desc">Holding a key repeats it. Off sends one press per tap.</string>
+    <string name="setting_shortcuts">Shortcut configuration</string>
+    <string name="setting_status">Connection status</string>
+    <string name="setting_reconnect">Reconnect automatically</string>
+    <string name="setting_reconnect_desc">Try again if the connection drops</string>
+    <string name="setting_saved_devices">Saved devices</string>
+    <string name="saved_count">%1$d saved</string>
+    <string name="setting_guide">Connection guide</string>
+    <string name="setting_support">Contact support</string>
+    <string name="setting_privacy">Privacy policy</string>
+    <string name="setting_rate">Rate this app</string>
+    <string name="setting_share">Share this app</string>
+    <string name="share_text">Use your phone as a Bluetooth mouse and keyboard: %1$s</string>
+    <string name="no_app_found">No app found to open this.</string>
+
+    <!-- key bindings -->
+    <string name="bindings_for">Shortcuts for %1$s. Tap one to change it.</string>
+    <string name="restore_defaults">Restore defaults</string>
+    <string name="restore_defaults_message">All shortcuts go back to their original keys.</string>
+    <string name="sc_copy">Copy</string>
+    <string name="sc_paste">Paste</string>
+    <string name="sc_cut">Cut</string>
+    <string name="sc_undo">Undo</string>
+    <string name="sc_redo">Redo</string>
+    <string name="sc_select_all">Select all</string>
+    <string name="sc_save">Save</string>
+    <string name="sc_find">Find</string>
+    <string name="sc_new_tab">New tab</string>
+    <string name="sc_close_tab">Close tab</string>
+    <string name="sc_switch_app">Switch app</string>
+    <string name="sc_show_desktop">Show desktop</string>
+    <string name="sc_lock">Lock screen</string>
+    <string name="sc_screenshot">Screenshot</string>
+    <string name="sc_task_view">Task view</string>
+    <string name="sc_close_window">Close window</string>
+    <string name="sc_quit_app">Quit app</string>
+
+    <!-- guide -->
+    <string-array name="guide_steps_windows">
+        <item>Turn on Bluetooth on your phone.</item>
+        <item>Open Air mouse and tap Connect on the Devices tab. This starts the connection service.</item>
+        <item>Allow the phone to be visible when asked.</item>
+        <item>On your PC open Settings, then Bluetooth &amp; devices.</item>
+        <item>Click Add device, choose Bluetooth, and pick your phone from the list.</item>
+        <item>Confirm the pairing code on both the PC and the phone.</item>
+        <item>Return to Air mouse. The status shows Connected.</item>
+        <item>Open the Touchpad or Keyboard tab.</item>
+        <item>Move your finger on the touchpad. The pointer should move on the PC.</item>
+    </string-array>
+    <string-array name="guide_steps_mac">
+        <item>Turn on Bluetooth on your phone.</item>
+        <item>Open Air mouse and tap Connect on the Devices tab. This starts the connection service.</item>
+        <item>Allow the phone to be visible when asked.</item>
+        <item>On your Mac open System Settings, then Bluetooth.</item>
+        <item>Wait for your phone to show in Nearby Devices and click Connect.</item>
+        <item>Confirm the pairing code on both the Mac and the phone.</item>
+        <item>Return to Air mouse. The status shows Connected.</item>
+        <item>Open the Touchpad or Keyboard tab.</item>
+        <item>Move your finger on the touchpad. The pointer should move on the Mac.</item>
+    </string-array>
+    <string name="not_connected">Not connected</string>
+    <string name="no_device_connected">No Device Connected</string>
+    <string name="no_device_connected_text">Connect your PC, tablet, or another device via Bluetooth to use this phone as a mouse and keyboard.</string>
+    <string name="connect_device">Connect Device</string>
+    <string name="view_devices">View devices</string>
+    <string name="header_bluetooth">Bluetooth</string>
+    <string name="header_theme">Theme</string>
+    <string name="header_help">Help</string>
+    <string name="reconnect">Reconnect</string>
+    <string name="current_device">Current device</string>
+    <string name="recent_devices">Recent devices</string>
+    <string name="seg_devices_list">Devices List</string>
+    <string name="seg_os_profile">OS Profile</string>
+    <string name="open_touchpad">Open Touchpad</string>
+    <string name="os_profile_text">Choose the operating system of the computer you control. Shortcut keys follow this profile.</string>
+    <string name="os_windows_sub">Ctrl, Win and Alt shortcuts</string>
+    <string name="os_mac_sub">Cmd, Option and Control shortcuts</string>
+    <string name="desc_connected_info">Ready. Your touchpad, keyboard and media keys work now.</string>
+    <string name="setting_auto_connect">Connect on app open</string>
+    <string name="setting_auto_connect_desc">Connects to your last computer as soon as the app opens. Bluetooth is released when the app is closed to save battery.</string>
+</resources>

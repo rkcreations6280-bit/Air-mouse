@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_touchpad" android:icon="@drawable/ic_touchpad" android:title="@string/nav_touchpad"/>
+    <item android:id="@+id/nav_keyboard" android:icon="@drawable/ic_keyboard" android:title="@string/nav_keyboard"/>
+    <item android:id="@+id/nav_modes" android:icon="@drawable/ic_modes" android:title="@string/nav_modes"/>
+    <item android:id="@+id/nav_devices" android:icon="@drawable/ic_bluetooth" android:title="@string/nav_devices"/>
+    <item android:id="@+id/nav_settings" android:icon="@drawable/ic_tune" android:title="@string/nav_settings"/>
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/media_prev"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/media_prev"
+            android:textSize="12sp"
+            app:icon="@drawable/ic_skip_prev"
+            app:iconGravity="top"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/media_play"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/media_play"
+            android:textSize="12sp"
+            app:icon="@drawable/ic_play"
+            app:iconGravity="top"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/media_next"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/media_next"
+            android:textSize="12sp"
+            app:icon="@drawable/ic_skip_next"
+            app:iconGravity="top"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/media_vol_down"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/media_vol_down"
+            android:textSize="12sp"
+            app:icon="@drawable/ic_vol_down"
+            app:iconGravity="top"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/media_mute"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/media_mute"
+            android:textSize="12sp"
+            app:icon="@drawable/ic_vol_off"
+            app:iconGravity="top"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/media_vol_up"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/media_vol_up"
+            android:textSize="12sp"
+            app:icon="@drawable/ic_vol_up"
+            app:iconGravity="top"/>
+    </LinearLayout>
+</LinearLayout>

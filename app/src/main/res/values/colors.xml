@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0066FF</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="ic_launcher_background">#3DDC84</color>
+
+    <color name="color_primary_container">#E5EFFF</color>
+    <color name="color_on_primary_container">#003A99</color>
+    <color name="color_secondary">#4D8DFF</color>
+    <color name="color_secondary_container">#DCE9FF</color>
+    <color name="color_bg">#F0F2F5</color>
+    <color name="color_surface">#FFFFFF</color>
+    <color name="color_surface_variant">#E8EBF0</color>
+    <color name="color_outline">#DDE1E8</color>
+    <color name="color_text_primary">#1C1E24</color>
+    <color name="color_text_secondary">#6B7280</color>
+    <color name="color_success">#1FA463</color>
+    <color name="color_error">#D93B3B</color>
+    <color name="color_warning">#E39A00</color>
+    <color name="color_warning_container">#FFF1D6</color>
+    <color name="key_bg">#FFFFFF</color>
+    <color name="key_pressed">#CCE0FF</color>
+    <color name="pad_bg">#FFFFFF</color>
+    <color name="pad_dot">#C3C9D4</color>
+    <color name="scrim">#66000000</color>
+    <color name="splash_start">#0066FF</color>
+    <color name="splash_end">#0A3FAA</color>
+</resources>
